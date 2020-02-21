@@ -1,0 +1,8 @@
+C:\Users\Evgen\source\repos\AHCG\AHCodeGenerator\NodeVisual\bin\Debug\netcoreapp3.0\NodeVisual.deps.json
+C:\Users\Evgen\source\repos\AHCG\AHCodeGenerator\NodeVisual\bin\Debug\netcoreapp3.0\NodeVisual.dll
+C:\Users\Evgen\source\repos\AHCG\AHCodeGenerator\NodeVisual\obj\Debug\netcoreapp3.0\NodeVisual.csprojAssemblyReference.cache
+C:\Users\Evgen\source\repos\AHCG\AHCodeGenerator\NodeVisual\obj\Debug\netcoreapp3.0\NodeVisual.AssemblyInfoInputs.cache
+C:\Users\Evgen\source\repos\AHCG\AHCodeGenerator\NodeVisual\obj\Debug\netcoreapp3.0\NodeVisual.AssemblyInfo.cs
+C:\Users\Evgen\source\repos\AHCG\AHCodeGenerator\NodeVisual\bin\Debug\netcoreapp3.0\NodeVisual.pdb
+C:\Users\Evgen\source\repos\AHCG\AHCodeGenerator\NodeVisual\obj\Debug\netcoreapp3.0\NodeVisual.dll
+C:\Users\Evgen\source\repos\AHCG\AHCodeGenerator\NodeVisual\obj\Debug\netcoreapp3.0\NodeVisual.pdb

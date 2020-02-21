@@ -1,17 +1,81 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Evgen\\source\\repos\\AHCG\\AHCG\\AHCG.csproj": {}
+    "C:\\Users\\Evgen\\source\\repos\\AHCG\\AHCodeGenerator\\AHCG\\AHCG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Evgen\\source\\repos\\AHCG\\AHCG\\AHCG.csproj": {
+    "C:\\Users\\Evgen\\source\\repos\\AHCG\\AHCodeGenerator\\AHCG\\AHCG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Evgen\\source\\repos\\AHCG\\AHCG\\AHCG.csproj",
+        "projectUniqueName": "C:\\Users\\Evgen\\source\\repos\\AHCG\\AHCodeGenerator\\AHCG\\AHCG.csproj",
         "projectName": "AHCG",
-        "projectPath": "C:\\Users\\Evgen\\source\\repos\\AHCG\\AHCG\\AHCG.csproj",
+        "projectPath": "C:\\Users\\Evgen\\source\\repos\\AHCG\\AHCodeGenerator\\AHCG\\AHCG.csproj",
         "packagesPath": "C:\\Users\\Evgen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Evgen\\source\\repos\\AHCG\\AHCG\\obj\\",
+        "outputPath": "C:\\Users\\Evgen\\source\\repos\\AHCG\\AHCodeGenerator\\AHCG\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Evgen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\Evgen\\source\\repos\\AHCG\\AHCodeGenerator\\NodeVisual\\NodeVisual.csproj": {
+                "projectPath": "C:\\Users\\Evgen\\source\\repos\\AHCG\\AHCodeGenerator\\NodeVisual\\NodeVisual.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Evgen\\source\\repos\\AHCG\\AHCodeGenerator\\NodeVisual\\NodeVisual.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Evgen\\source\\repos\\AHCG\\AHCodeGenerator\\NodeVisual\\NodeVisual.csproj",
+        "projectName": "NodeVisual",
+        "projectPath": "C:\\Users\\Evgen\\source\\repos\\AHCG\\AHCodeGenerator\\NodeVisual\\NodeVisual.csproj",
+        "packagesPath": "C:\\Users\\Evgen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Evgen\\source\\repos\\AHCG\\AHCodeGenerator\\NodeVisual\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -42,6 +106,16 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Drawing.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,9 +129,6 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"

@@ -1,0 +1,11 @@
+C:\Users\Evgen\source\repos\AHCG\AHCG\bin\Debug\netcoreapp3.0\AHCG.exe
+C:\Users\Evgen\source\repos\AHCG\AHCG\bin\Debug\netcoreapp3.0\AHCG.deps.json
+C:\Users\Evgen\source\repos\AHCG\AHCG\bin\Debug\netcoreapp3.0\AHCG.runtimeconfig.json
+C:\Users\Evgen\source\repos\AHCG\AHCG\bin\Debug\netcoreapp3.0\AHCG.runtimeconfig.dev.json
+C:\Users\Evgen\source\repos\AHCG\AHCG\bin\Debug\netcoreapp3.0\AHCG.dll
+C:\Users\Evgen\source\repos\AHCG\AHCG\bin\Debug\netcoreapp3.0\AHCG.pdb
+C:\Users\Evgen\source\repos\AHCG\AHCG\obj\Debug\netcoreapp3.0\AHCG.csprojAssemblyReference.cache
+C:\Users\Evgen\source\repos\AHCG\AHCG\obj\Debug\netcoreapp3.0\AHCG.AssemblyInfoInputs.cache
+C:\Users\Evgen\source\repos\AHCG\AHCG\obj\Debug\netcoreapp3.0\AHCG.AssemblyInfo.cs
+C:\Users\Evgen\source\repos\AHCG\AHCG\obj\Debug\netcoreapp3.0\AHCG.dll
+C:\Users\Evgen\source\repos\AHCG\AHCG\obj\Debug\netcoreapp3.0\AHCG.pdb

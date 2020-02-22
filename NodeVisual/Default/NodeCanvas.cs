@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Drawing;
+using System.Drawing.Imaging;
 
 namespace NodeVisual.Default
 {
@@ -18,16 +19,19 @@ namespace NodeVisual.Default
 
         public virtual bool AddNode(INode node)
         {
-            throw new NotImplementedException();
+            this.NodeСollection.Add(node);
+            return true;
         }
 
         public virtual bool Clear()
         {
-            throw new NotImplementedException();
+            this.NodeСollection.Clear();
+            return true;
         }
-        public virtual Bitmap Render()
+        public virtual Bitmap Render(Int32 width, Int32 height, PixelFormat pFormat)
         {
-            return _Renderer.GetImage(this.NodeСollection.ToArray(), 800, 600);
+            
+            return _Renderer.GetImage(this.NodeСollection.ToArray(), width, height, pFormat); ;
         }
 
         public virtual INode GetNode(Int32 id)

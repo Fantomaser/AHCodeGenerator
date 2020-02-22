@@ -19,7 +19,7 @@ namespace AHCG
             NodeRendererProvider renderer = new NodeRendererProvider();
             NodeCanvas canvas = new NodeCanvas(renderer);
 
-            Application.Run(new Form1(canvas));
+            Application.Run(new Form1(canvas, renderer));
         }
     }
 }

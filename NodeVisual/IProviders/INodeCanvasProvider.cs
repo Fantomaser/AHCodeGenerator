@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Drawing;
+using System.Drawing.Imaging;
 
 namespace NodeVisual
 {
@@ -9,7 +10,7 @@ namespace NodeVisual
     {
         public INodeRendererProvider Renderer { get; set; }
         public bool AddNode(INode node);
-        public Bitmap Render();
+        public Bitmap Render(Int32 width, Int32 height, PixelFormat pFormat);
 
         public bool RemoveNode(Int32 id);
         public bool RemoveNode(INode node);

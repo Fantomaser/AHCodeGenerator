@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.Text;
 
 namespace NodeVisual.Default
@@ -30,6 +31,32 @@ namespace NodeVisual.Default
 
         public Point _Position = new Point(-1,-1);
         public virtual Point Position { get => _Position; set => _Position = value; }
+
+        public Point _Size = new Point(-1, -1);
+        public virtual Point Size { get => _Size; set => _Size = value; }
+
+        public unsafe Bitmap GetView(PixelFormat pFormat, Pixel24 BC)
+        {
+            int size = this.Size.X > this.Size.Y ? this.Size.X : this.Size.Y;
+            Bitmap View = new Bitmap(size, size, pFormat);
+            BitmapData bd = View.LockBits(new Rectangle(0, 0, size, size), ImageLockMode.ReadWrite, pFormat);
+
+            byte* curLine;
+            for (int h = 0; h < this.Size.Y; h++)
+            {
+                curLine = ((byte*)bd.Scan0) + h * bd.Stride;
+                for (int w = 0; w < this.Size.X; w++)
+                {
+                    *(curLine++) = BC.B;
+                    *(curLine++) = BC.G;
+                    *(curLine++) = BC.R;
+                }
+            }
+
+            View.UnlockBits(bd);
+
+            return View;
+        }
     }
 
     public class NodeInField : INodeInField
@@ -61,4 +88,5 @@ namespace NodeVisual.Default
         public INode _Destination = null;
         public virtual INode Destination { get => throw new NotImplementedException(); set => _Destination = value; }
     }
+
 }
